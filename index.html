@@ -24,78 +24,79 @@
 
 
     <div class="position-absolute top-0 start-0 m-4">
-        <a class="btn btn-warning btn-md" href="#" role="button">Formation</a>
-        <a class="btn btn-warning btn-md" href="#" role="button">Portofolio</a>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            CONTACT
-        </button>
-        
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-primary">Formation</button>
+            <button type="button" class="btn btn-outline-primary">Portofolio</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">CONTACT</button>
+        </div>
+
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Contactez-moi</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contactez-moi</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="floatingInput" placeholder="Numéro de téléphone">
+                            <label for="floatingInput">Numéro de téléphone *</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nom">
+                            <label for="floatingInput">Nom *</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Adresse email *</label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Commentaires" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Commentaires *</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">ENVOYER</button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="form-floating mb-3">
-                        <input type="tel" class="form-control" id="floatingInput" placeholder="Numéro de téléphone">
-                        <label for="floatingInput">Numéro de téléphone *</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Nom">
-                        <label for="floatingInput">Nom *</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Adresse email *</label>
-                    </div>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Commentaires" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Commentaires *</label>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-primary">ENVOYER</button>
-                </div>
-            </div>
             </div>
         </div>
     </div>
-
 
     <div class="container">
         <div class="position-relative">
-                <div class="position-lg-absolute bottom-0 start-0 row text-center">
-                    <div class="col-md-12 col-lg-3">
-                        <div class="align-items-center">
-                            <img src="img/efficacite.png" style="width: 6vw" alt="efficacité">
-                            <span class="m-4" style="color: #6495A9"><strong>Efficacité</strong></span>
-                        </div>
-                        <p class="mt-3">La notion d'efficacité et de performance pour intégrer le respect de ses
-                            objectifs.</p>
+            <div class="position-lg-absolute bottom-0 start-0 row text-center">
+                <div class="col-md-12 col-lg-3">
+                    <div class="align-items-center">
+                        <img src="img/efficacite.png" style="width: 6vw" alt="efficacité">
+                        <span class="m-4" style="color: #6495A9"><strong>Efficacité</strong></span>
                     </div>
-                    <div class="col-md-12 col-lg-3">
-                        <div class="align-items-center">
-                            <img src="img/flexibilite.png" style="width: 6vw" alt="flexibilité">
-                            <span class="m-4" style="color: #F79100"><strong>Flexibilité</strong></span>
-                        </div>
-                        <p class="mt-3">Grâce a ma formation sur plusieurs technologie, j'ai sus acquerir une grande
-                            fléxibilitée.</p>
+                    <p class="mt-3">La notion d'efficacité et de performance pour intégrer le respect de ses
+                        objectifs.</p>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="align-items-center">
+                        <img src="img/flexibilite.png" style="width: 6vw" alt="flexibilité">
+                        <span class="m-4" style="color: #F79100"><strong>Flexibilité</strong></span>
                     </div>
-                    <div class="col-md-12 col-lg-3">
-                        <div class="align-items-center">
-                            <img src="img/experience.png" style="width: 6vw" alt="expérience">
-                            <span class="m-4" style="color: #424242"><strong>Expérience</strong></span>
-                        </div>
-                        <p class="mt-3">Formé par l'école web <a href="https://oclock.io/">O'Clock</a> avec un rythme
-                            soutenu par des professeurs passionnés et passionnants.</p>
-                    </div>                    
+                    <p class="mt-3">Grâce a ma formation sur plusieurs technologie, j'ai su acquerir une grande
+                        fléxibilitée.</p>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="align-items-center">
+                        <img src="img/experience.png" style="width: 6vw" alt="expérience">
+                        <span class="m-4" style="color: #424242"><strong>Expérience</strong></span>
+                    </div>
+                    <p class="mt-3">Formé par l'école web <a href="https://oclock.io/">O'Clock</a> avec un rythme
+                        soutenu par des professeurs passionnés et passionnants.</p>
+                </div>
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
