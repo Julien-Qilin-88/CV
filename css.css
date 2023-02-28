@@ -1,4 +1,6 @@
-
+.fa-phone:before {
+    content: "\f095";
+}
 
 .gif{
     position:absolute ;
