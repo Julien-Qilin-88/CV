@@ -1,6 +1,10 @@
 body{
     width: 100%;
 }
+
+footer{
+    
+}
 .fa-phone:before {
     content: "\f095";
 }
